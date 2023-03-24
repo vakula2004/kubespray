@@ -47,7 +47,7 @@ end
 # Defaults for config options defined in CONFIG
 $num_instances ||= 3
 $instance_name_prefix ||= "k8s"
-$vm_gui ||= false
+$vm_gui ||= true
 $vm_memory ||= 2048
 $vm_cpus ||= 2
 $shared_folders ||= {}
